@@ -1,0 +1,9 @@
+name: mdCore
+version: ${project.version}
+main: com.meltdownmc.mdCore.main
+
+commands:
+  report:
+  sc:
+  hush:
+  spy:
