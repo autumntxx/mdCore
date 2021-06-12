@@ -1,6 +1,5 @@
 package com.meltdownmc.mdCore;
 
-import com.meltdownmc.mdCore.CommandLog.commandLogEvents;
 import com.meltdownmc.mdCore.CommandLog.spyCommand;
 import com.meltdownmc.mdCore.staffchat.hushCommand;
 import com.meltdownmc.mdCore.staffchat.reportCommand;
