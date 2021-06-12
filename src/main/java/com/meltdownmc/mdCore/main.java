@@ -51,7 +51,6 @@ public final class main extends Plugin {
 
         try {
             this.getProxy().getPluginManager().registerListener(this, new staffChatEvents());
-            this.getProxy().getPluginManager().registerListener(this, new commandLogEvents());
             System.out.println("Events registered");
         } catch (Exception e) {
             System.out.println("Error while registering events:");
@@ -65,7 +64,6 @@ public final class main extends Plugin {
             this.getProxy().getPluginManager().registerCommand(this, new hushCommand());
             this.getProxy().getPluginManager().registerCommand(this, new reportCommand());
             this.getProxy().getPluginManager().registerCommand(this, new staffChatCommand());
-            this.getProxy().getPluginManager().registerCommand(this, new spyCommand());
             System.out.println("Commands registered");
         } catch (Exception e) {
             System.out.println("Error while registering commands:");
